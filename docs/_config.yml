@@ -14,15 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: JAR's stuff
+title: JAR's stuff
 description: >- # this means to ignore newlines until "baseurl:"
   Material by me, for review by particular people
 
-# Changing baseurl to /biodiversity seems to break the site.
-baseurl: "" # the subpath of your site, e.g. /blog.
+# The Subpath of the site, e.g. /blog:
+# "/biodiversity/" doesn't work.
+# "/biodiversity" works locally.
+# "biodiversity" fails locally.
+# "biodiversity/" fails locally.
+baseurl: "/biodiversity"
 
+# The base hostname & protocol for the site:
 # I don't know if this is right.
-url: "https://jar398.github.io/biodiversity" # the base hostname & protocol for your site
+# "https://jar398.github.io/biodiversity/"  works locally.
+url: "https://jar398.github.io/biodiversity/" 
 
 github_username:  jar398
 
