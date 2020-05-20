@@ -28,7 +28,7 @@ github_username:  jar398
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
 #  - jekyll-feed
 
