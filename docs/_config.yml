@@ -14,20 +14,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: JAR's stuff
-email: jar398@github.com
+name: JAR's stuff
 description: >- # this means to ignore newlines until "baseurl:"
-  I needed a place to put some thoughts in a public place where I could revise 
-  what people see very easily.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Material by me, for review by particular people
+
+# Changing baseurl to /biodiversity seems to break the site.
+baseurl: "" # the subpath of your site, e.g. /blog.
+
+# I don't know if this is right.
 url: "https://jar398.github.io/biodiversity" # the base hostname & protocol for your site
+
 github_username:  jar398
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
