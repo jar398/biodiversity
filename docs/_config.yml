@@ -26,15 +26,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "/biodiversity"
 
 # The base hostname & protocol for the site:
-# I don't know if this is right.
-# "https://jar398.github.io/biodiversity/"  works locally.
+# "https://jar398.github.io/biodiversity/"  works locally and remotely.
 url: "https://jar398.github.io/biodiversity/" 
 
 github_username:  jar398
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
+# theme: jekyll-theme-minimal
 plugins:
 #  - jekyll-feed
 
